@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+}
+body{ 
+margin: 0;
+background-color: black;
+color: white;
+
+}
+.presentation{
+    display: flex;
+    align-items: center;
+    
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    width: 100%;
+}
+.content{
+    width: 50%;
+    padding: 30px;
+}
+.content ,p{
+    font-size: 18px;
+}
+span{
+    color: yellow;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px ;
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+
+}
+
+a{
+    color: white;
+}
